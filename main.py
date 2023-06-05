@@ -76,8 +76,6 @@ def update_counter():
         counter_text.write(arg="Game over!", align="center", font=FONT)
 
 def start_game_up():
-    global game_over
-    game_over = False
     turtle.tracer(0)
     create_score_text()
     show_turtles_randomly()
