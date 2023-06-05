@@ -80,8 +80,7 @@ def start_game_up():
     turtle.tracer(0)
     create_score_text()
     show_turtles_randomly()
-    update_counter()#show first counter value
-    #window.delay(10)
+    update_counter()
     turtle_shape.onclick(increase_score)
     turtle.tracer(1)
 
