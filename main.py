@@ -9,6 +9,7 @@ window.title("Catch the Turtle")
 #create turtle
 turtle_shape = turtle.Turtle()
 turtle_shape.shape("turtle")
+#turtle_shape.shapesize(2,2) -> it makes larger turtles
 score_text = turtle.Turtle()
 counter_text = turtle.Turtle()
 
@@ -80,7 +81,7 @@ def start_game_up():
     create_score_text()
     show_turtles_randomly()
     update_counter()#show first counter value
-    window.delay(10)
+    #window.delay(10)
     turtle_shape.onclick(increase_score)
     turtle.tracer(1)
 
